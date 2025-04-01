@@ -1,6 +1,6 @@
 flag_management:
   default_rules: # the rules that will be followed for any flag added, generally
-    # carryforward: true
+    carryforward: true
     statuses:
       - type: project
         target: auto
