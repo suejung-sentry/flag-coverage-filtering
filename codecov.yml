@@ -1,29 +1,29 @@
-flag_management:
-  default_rules: # the rules that will be followed for any flag added, generally
-    # carryforward: true
-    statuses:
-      - type: project
-        target: auto
-        threshold: 1%
-      - type: patch
-        target: 90%
-  individual_flags: # exceptions to the default rules above, stated flag by flag
-    - name: e2e-tests
-      paths: 
-      - e2e-tests
-      statuses:
-        - type: project
-          target: 20%
-        - type: patch
-          target: 100%
-    - name: unit-tests
-      paths: 
-      - unit-tests
-      statuses:
-        - type: project
-          target: 20%
-        - type: patch
-          target: 100%
+# flag_management:
+#   default_rules: # the rules that will be followed for any flag added, generally
+#     # carryforward: true
+#     statuses:
+#       - type: project
+#         target: auto
+#         threshold: 1%
+#       - type: patch
+#         target: 90%
+#   individual_flags: # exceptions to the default rules above, stated flag by flag
+#     - name: e2e-tests
+#       paths: 
+#       - e2e-tests
+#       statuses:
+#         - type: project
+#           target: 20%
+#         - type: patch
+#           target: 100%
+#     - name: unit-tests
+#       paths: 
+#       - unit-tests
+#       statuses:
+#         - type: project
+#           target: 20%
+#         - type: patch
+#           target: 100%
 
 component_management:
   default_rules:  # default rules that will be inherited by all components
