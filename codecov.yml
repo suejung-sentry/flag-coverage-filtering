@@ -38,7 +38,7 @@ component_management:
     - component_id: my_component_1  # this is an identifier that should not be changed
       name: my_component_1  # this is a display name, and can be changed freely
       paths:
-        -flag_coverage_filtering/lib.py
+        - flag_coverage_filtering/lib.py
     - component_id: my_component_2
       name: my_component_2
       paths:
