@@ -1,4 +1,4 @@
-from lib import add
+from flag_coverage_filtering.lib import add
 
 
 def test_add_e2e():
