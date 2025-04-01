@@ -1,6 +1,6 @@
 flag_management:
   default_rules: # the rules that will be followed for any flag added, generally
-    carryforward: true
+    # carryforward: true
     statuses:
       - type: project
         target: auto
@@ -11,7 +11,6 @@ flag_management:
     - name: e2e-tests
       paths: 
       - e2e-tests
-      carryforward: true
       statuses:
         - type: project
           target: 20%
@@ -20,12 +19,11 @@ flag_management:
     - name: unit-tests
       paths: 
       - unit-tests
-      carryforward: true
       statuses:
-      - type: project
-        target: 20%
-      - type: patch
-        target: 100%
+        - type: project
+          target: 20%
+        - type: patch
+          target: 100%
 
 component_management:
   default_rules:  # default rules that will be inherited by all components
