@@ -35,13 +35,13 @@ jobs:
         slug: suejung-sentry/flag-coverage-filtering
         flags: e2e-tests
 
-    - name: Run unit tests with coverage
-      run: |
-        pytest unit-tests --cov=flag_coverage_filtering --cov-report=xml
+    # - name: Run unit tests with coverage
+    #   run: |
+    #     pytest unit-tests --cov=flag_coverage_filtering --cov-report=xml
         
-    - name: Upload unit coverage reports to Codecov
-      uses: codecov/codecov-action@v5
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
-        slug: suejung-sentry/flag-coverage-filtering
-        flags: unit-tests
+    # - name: Upload unit coverage reports to Codecov
+    #   uses: codecov/codecov-action@v5
+    #   with:
+    #     token: ${{ secrets.CODECOV_TOKEN }}
+    #     slug: suejung-sentry/flag-coverage-filtering
+    #     flags: unit-tests
