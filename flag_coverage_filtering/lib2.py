@@ -6,3 +6,6 @@ def multiply2(a: int, b: int) -> int:
 
 def subtract2(a: int, b: int) -> int:
     return a - b
+
+def divide2(a: int, b: int) -> int:
+    return a / b

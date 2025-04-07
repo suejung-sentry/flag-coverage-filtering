@@ -41,11 +41,11 @@ component_management:
         branches:
           - "!main"
   individual_components:
-    - component_id: my_component_1  # this is an identifier that should not be changed
-      name: my_component_1  # this is a display name, and can be changed freely
+    - component_id: lib
+      name: lib
       paths:
         - flag_coverage_filtering/lib.py
-    - component_id: my_component_2
-      name: my_component_2
+    - component_id: lib2
+      name: lib2
       paths:
         - flag_coverage_filtering/lib2.py
